@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Microtasks</string>
+    <string name="activityLabelMenu">Menu</string>
+    <string name="activityLabelMicrotask1">Microtask 1</string>
+    <string name="activityLabelMicrotask2a">Microtask 2a</string>
+    <string name="activityLabelMicrotask2b">Microtask 2b</string>
+    <string name="activityLabelMicrotask2c">Microtask 2c</string>
+    <string name="activityLabelMicrotask3">Microtask 3</string>
+    <string name="activityLabelMicrotask4">Microtask 4</string>
+    <string name="txtInputComment">Write a comment</string>
+    <string name="btnSendComment">Send</string>
+    <string name="txtShowRatingLabel">Rating:</string>
+    <string name="txtShowCommentLabel">Comment:</string>
+    <string name="btnSave">Save</string>
+    <string-array name="animals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Chicken</item>
+        <item>Wolf</item>
+        <item>Shark</item>
+    </string-array>
+    <string name="txtSelectAnimalLabel">Select an Animal</string>
+    <string name="txtShowAnimalLabel">Animal:</string>
+    <string name="title_activity_microtask3">Microtask3</string>
+    <!--<string name="tab_text_1">Tab 1</string>-->
+    <!--<string name="tab_text_2">Tab 2</string>-->
+    <!--<string name="tab_text_3">Tab 3</string>-->
+    <string name="action_settings1">Search</string>
+    <string name="action_settings2">Profile</string>
+    <string name="action_settings3">Settings</string>
+    <string name="action_settings4">Contact</string>
+    <string name="action_settings5">Profile</string>
+    <string name="action_settings6">About</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
