@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Microtask3 extends AppCompatActivity {
 
@@ -57,14 +58,6 @@ public class Microtask3 extends AppCompatActivity {
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
 
     }
 
@@ -84,9 +77,37 @@ public class Microtask3 extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings1) {
-            return true;
+        Toast toast;
+        String action = "";
+
+        switch (id){
+            case R.id.action_settings1:
+                action = getResources().getString(R.string.action_settings1);
+                break;
+            case R.id.action_settings2:
+                action = getResources().getString(R.string.action_settings2);
+                break;
+            case R.id.action_settings3:
+                action = getResources().getString(R.string.action_settings3);
+                break;
+            case R.id.action_settings4:
+                action = getResources().getString(R.string.action_settings4);
+                break;
+            case R.id.action_settings5:
+                action = getResources().getString(R.string.action_settings5);
+                break;
+            case R.id.action_settings6:
+                action = getResources().getString(R.string.action_settings6);
+                break;
+            default:
         }
+
+        toast = Toast.makeText(this, action, Toast.LENGTH_SHORT);
+        toast.show();
+
+//        if (id == R.id.action_settings1) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }

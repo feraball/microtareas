@@ -45,6 +45,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.balladares.microtareas.Menu" />
         </activity>
+        <activity android:name=".Microtask4"
+            android:label="@string/activityLabelMicrotask4"
+            android:parentActivityName=".Menu"
+            ></activity>
     </application>
 
 </manifest>

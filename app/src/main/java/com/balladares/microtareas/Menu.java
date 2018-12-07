@@ -45,5 +45,10 @@ public class Menu extends AppCompatActivity {
         Intent intent = new Intent(this, Microtask3.class);
         startActivity(intent);
     }
+
+    public void StartMicrotask4 (View v){
+        Intent intent = new Intent(this, Microtask4.class);
+        startActivity(intent);
+    }
 }
 

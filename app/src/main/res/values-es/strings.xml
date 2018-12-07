@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Microtareas</string>
+    <string name="activityLabelMenu">Menú Microtareas</string>
+    <string name="activityLabelMicrotask1">Microtarea 1</string>
+    <string name="activityLabelMicrotask2a">Microtarea 2a</string>
+    <string name="activityLabelMicrotask2b">Microtarea 2b</string>
+    <string name="activityLabelMicrotask2c">Microtarea 2c</string>
+    <string name="activityLabelMicrotask3">Microtarea 3</string>
+    <string name="activityLabelMicrotask4">Microtarea 4</string>
+    <string name="txtInputComment">Escribe un comentario</string>
+    <string name="btnSendComment">Enviar</string>
+    <string name="txtShowRatingLabel">Puntuación:</string>
+    <string name="txtShowCommentLabel">Comentario:</string>
+    <string name="btnSave">Guardar</string>
+    <string-array name="animals">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Pollo</item>
+        <item>Lobo</item>
+        <item>Tiburón</item>
+    </string-array>
+    <string name="txtSelectAnimalLabel">Selecciona un Animal</string>
+    <string name="txtShowAnimalLabel">Animal:</string>
+    <string name="title_activity_microtask3">Microtarea 3</string>
+    <string name="action_settings1">Buscar</string>
+    <string name="action_settings2">Perfil</string>
+    <string name="action_settings3">Configuraciones</string>
+    <string name="action_settings4">Contacto</string>
+    <string name="action_settings5">Sitio Web</string>
+    <string name="action_settings6">Acerca de</string>
+    <string name="section_format">Hola desde la sección: %1$d</string>
+    <string name="btnSelectDialog">1 - Abrir Diálogo de Selección</string>
+    <string name="txtShowOptionLabel">Opción:</string>
+    <string name="btnProgressBarDialog">2 - Abrir Diálogo de Barra de Progreso</string>
+    <string name="txtDatePickerAnswer">3 - Respuesta: La función principal del DatePickerDialog es la de permitir al usuario selecionar una fecha de manera fácil e intuitiva.</string>
+    <string name="SelectDialogTitle">Escoge un Color</string>
+    <string-array name="colors">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+    </string-array>
+    <string name="ProgressBarDialogTitle">Una Barra de Progreso</string>
+    <string name="ProgressBarDialogMessage">Espera un chance...</string>
+</resources>

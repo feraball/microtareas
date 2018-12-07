@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Microtasks</string>
-    <string name="activityLabelMenu">Menu</string>
+    <string name="activityLabelMenu">Microtasks Menu</string>
     <string name="activityLabelMicrotask1">Microtask 1</string>
     <string name="activityLabelMicrotask2a">Microtask 2a</string>
     <string name="activityLabelMicrotask2b">Microtask 2b</string>
@@ -22,14 +22,23 @@
     <string name="txtSelectAnimalLabel">Select an Animal</string>
     <string name="txtShowAnimalLabel">Animal:</string>
     <string name="title_activity_microtask3">Microtask3</string>
-    <!--<string name="tab_text_1">Tab 1</string>-->
-    <!--<string name="tab_text_2">Tab 2</string>-->
-    <!--<string name="tab_text_3">Tab 3</string>-->
     <string name="action_settings1">Search</string>
     <string name="action_settings2">Profile</string>
     <string name="action_settings3">Settings</string>
     <string name="action_settings4">Contact</string>
-    <string name="action_settings5">Profile</string>
+    <string name="action_settings5">Website</string>
     <string name="action_settings6">About</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="section_format">Hello from section: %1$d</string>
+    <string name="btnSelectDialog">1 - Open Select Dialog</string>
+    <string name="txtShowOptionLabel">Option:</string>
+    <string name="btnProgressBarDialog">2 - Open ProgressBar Dialog</string>
+    <string name="txtDatePickerAnswer">3 - Answer: La función principal del DatePickerDialog es la de permitir al usuario selecionar una fecha de manera fácil e intuitiva.</string>
+    <string name="SelectDialogTitle">Pick a Color</string>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string name="ProgressBarDialogTitle">A ProgressBar</string>
+    <string name="ProgressBarDialogMessage">Wait a sec...</string>
 </resources>
